@@ -16,7 +16,7 @@ A smart parking spot indicator built on Arduino. An LDR and light beam detect wh
 - **8×8 LED matrix display:**
   - ✔ Checkmark: spot is vacant
   - ✖ "X": spot is occupied
-  - **R**: spot is reserved
+  - **R** : spot is reserved
 - **Unauthorized parking alarm:** if the spot is reserved and a car is detected, the buzzer plays an alternating two-tone siren (1500 Hz / 1000 Hz) and the event is logged to Serial.
 
 ### RFID version only (`with_card_reader.ino`)
@@ -40,8 +40,10 @@ A smart parking spot indicator built on Arduino. An LDR and light beam detect wh
 - Jumper wires and breadboard
 
 **Button version:** push button
+<img width="645" height="734" alt="image" src="https://github.com/user-attachments/assets/f8ea7932-25f2-49a9-bda9-679f60fd679b" />
 
 **RFID version:** MFRC522 RFID reader and RFID cards/tags
+<img width="1022" height="700" alt="image" src="https://github.com/user-attachments/assets/e67e6abd-ecfb-49c6-9ec1-16ce1f0bcfc4" />
 
 ## Pin Connections
 
@@ -56,7 +58,7 @@ A smart parking spot indicator built on Arduino. An LDR and light beam detect wh
 | MFRC522 SDA (SS) / RST | not used | D10 / D9 |
 | MFRC522 SCK / MOSI / MISO | not used | D13 / D11 / D12 (hardware SPI) |
 
-> ⚠️ The LED matrix pins differ between the two with_card_readeres, so wire it according to the version you upload.
+> ⚠️ The LED matrix pins differ between the two with_card_readeres, so wire it according to the version you use.
 
 ## Libraries
 
