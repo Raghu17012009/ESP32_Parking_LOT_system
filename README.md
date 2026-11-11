@@ -39,11 +39,17 @@ A smart parking spot indicator built on Arduino. An LDR and light beam detect wh
 - Buzzer
 - Jumper wires and breadboard
 
-**Button version:** push button
-<img width="645" height="734" alt="image" src="https://github.com/user-attachments/assets/f8ea7932-25f2-49a9-bda9-679f60fd679b" />
+### Button version (`with_button.ino`)
 
-**RFID version:** MFRC522 RFID reader and RFID cards/tags
-<img width="1022" height="700" alt="image" src="https://github.com/user-attachments/assets/e67e6abd-ecfb-49c6-9ec1-16ce1f0bcfc4" />
+**Extra component:** push button
+
+<img width="645" height="734" alt="Circuit diagram for the button version" src="https://github.com/user-attachments/assets/f8ea7932-25f2-49a9-bda9-679f60fd679b" />
+
+### RFID version (`sketch.ino`)
+
+**Extra components:** MFRC522 RFID reader and RFID cards/tags
+
+<img width="1022" height="700" alt="Circuit diagram for the RFID version" src="https://github.com/user-attachments/assets/e67e6abd-ecfb-49c6-9ec1-16ce1f0bcfc4" />
 
 ## Pin Connections
 
